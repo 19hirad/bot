@@ -2,7 +2,7 @@ const { Client, GatewayIntentBits, SlashCommandBuilder, REST, Routes, EmbedBuild
 const http = require('http');
 
 // Bot Configuration
-const TOKEN = process.env.DISCORD_TOKEN;
+const token = process.env.TOKEN;
 const CLIENT_ID = process.env.CLIENT_ID;
 const DEVELOPER_ID = process.env.DEVELOPER_ID;
 const PORT = process.env.PORT || 3000;
