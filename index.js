@@ -1,9 +1,9 @@
 const { Client, GatewayIntentBits, SlashCommandBuilder, REST, Routes, EmbedBuilder, PermissionFlagsBits } = require('discord.js');
 
 // Bot Configuration
-const TOKEN = process.env.DISCORD_TOKEN; MTMzODA5NTgyMTUyMjIxMDg4Nw.GA1iH1.o7lNTfwvlEzzpqwvs1aYz6fMjVMC_q4nVLjdRE
-const CLIENT_ID = process.env.CLIENT_ID; 1338095821522210887
-const DEVELOPER_ID = process.env.DEVELOPER_ID; 1064134419415314492
+const TOKEN = process.env.DISCORD_TOKEN;
+const CLIENT_ID = process.env.CLIENT_ID;
+const DEVELOPER_ID = process.env.DEVELOPER_ID;
 
 // Bot Setup
 const client = new Client({
